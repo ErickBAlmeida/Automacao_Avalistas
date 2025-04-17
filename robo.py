@@ -21,7 +21,7 @@ msg = ToastNotifier()
 cancelar_loop = False
 
 # Manipulação de Excel
-df = pd.read_excel('banco de avalista.xlsx', sheet_name='Sheet')
+df = pd.read_excel('banco_de_avalista.xlsx', sheet_name='Sheet')
 df = df.sort_values(by='GCPJ', ascending=True)
 total_de_itens = df.shape[0]
 linha = 0
